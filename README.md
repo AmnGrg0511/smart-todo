@@ -90,3 +90,9 @@ The frontend application will be accessible at `http://localhost:3000`.
 *   **Task Update**: The `TaskEditorPage` currently only implements `createTask`. For full update functionality, you would need to implement `updateTask` in `frontend/src/api/api.ts` and integrate it.
 *   **Supabase Integration**: The backend is currently configured to use SQLite. For Supabase (PostgreSQL), you'll need to install `psycopg2-binary` and configure `DATABASES` in `backend/smart_todo_backend/settings.py` with your Supabase connection details.
 *   **AI Suggestions**: The AI suggestions are powered by Google Gemini Pro. Ensure your `GEMINI_API_KEY` is correctly set in the `.env.local` file.
+
+Screenshots
+![ai](ai.png)
+![dash](dash.png)
+![edit](edit.png)
+![cat](cat.png)
